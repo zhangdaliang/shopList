@@ -20,7 +20,7 @@ UITableViewDataSource>
 
 -(instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:CGRectMake(100, 64, Screen_width-100, Screen_height-60-64)];
+    self = [super initWithFrame:CGRectMake(100, 64, Screen_width-100, Screen_height-64)];
     if (self) {
         self.dataArray = [NSMutableArray array];
         UITableView *tableView = [[UITableView alloc]initWithFrame:self.bounds style:(UITableViewStylePlain)];

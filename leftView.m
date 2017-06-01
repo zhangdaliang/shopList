@@ -21,7 +21,7 @@ UITableViewDataSource>
 @implementation leftView
 
 -(instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:CGRectMake(0, 0,100, Screen_height-60)];
+    self = [super initWithFrame:CGRectMake(0, 0,100, Screen_height)];
     if (self) {
         NSString *jsonStr = [[NSBundle mainBundle] pathForResource:@"dataJson" ofType:@"json"];
         NSData *data = [NSData dataWithContentsOfFile:jsonStr];
